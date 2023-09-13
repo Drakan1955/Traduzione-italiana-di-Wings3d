@@ -1,0 +1,15 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_bbox,
+ [
+  {bb_menu,
+   [
+    {1,"Crea Bounding Box..."},
+    {2,"Crea un Bounding Box"}
+   ]},
+  {create_bbox,
+   [
+    {1,"Crea Bounding Box"},
+    {2,"Dimensioni rettangolo:"},
+    {3,"Centro rettangolo:"}
+   ]}
+ ]}.

@@ -1,0 +1,45 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_image,
+ [
+  {image_dialog,
+   [
+    {3,"Fronte"},
+    {4,"Retro"},
+    {5,"Destra"},
+    {6,"Sinistra"},
+    {7,"Superiore"},
+    {8,"Inferiore"},
+    {9,"Vista"},
+    {10,"Allineato con..."},
+    {11,"Posizione in base all'assistente di posizionamento (immagine a destra)"},
+    {12,"Materiale "},
+    {13,"Materiale e Oggetto "},
+    {14,"Nessuno "},
+    {15,"Usa il nome dell'immagine per..."},
+    {16,"Consentire l'uso del nome dell'immagine per il materiale e/o l'oggetto del piano dell'immagine"},
+    {17,"Nome"},
+    {18,"Nome per l'oggetto del piano dell'immagine"},
+    {19,"Offset"},
+    {20,"Offset dall'origine (solo valori positivi)"},
+    {21,"Rotazione"},
+    {22,"Rotazione attorno all'origine (positivo è in senso antiorario)"},
+    {23,"Blocca dopo la creazione"},
+    {24,"Blocca l'oggetto sul piano dell'immagine"},
+    {25,"Faccia posteriore trasparente"},
+    {26,"Assegna materiale trasparente alla faccia posteriore"}
+   ]},
+  {image_menu,
+   [
+    {1,"Piano Immagine..."},
+    {2,"Crea un piano contenente un'immagine"}
+   ]},
+  {load_img_plane,
+   [
+    {1,"L'immagine non può essere caricata come texture.~nFile: \"~s\"~n GLU Errore: ~p - ~s~n"}
+   ]},
+  {make_image,
+   [
+    {1,"Caricamento fallito \"~ts\": ~s\n"},
+    {2,"Piano Immagine"}
+   ]}
+ ]}.

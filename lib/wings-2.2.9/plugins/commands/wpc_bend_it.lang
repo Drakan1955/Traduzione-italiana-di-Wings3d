@@ -1,0 +1,43 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_bend,
+ [
+  {adv_submenu_clamped,
+   [
+    {1,"Curva plastica bloccata"},
+    {2,"Curva a perno bloccata"},
+    {3,"Curva TopRad bloccata"}
+   ]},
+  {adv_submenu_noclamp,
+   [
+    {1,"Curva plastica"},
+    {2,"Curva a perno"},
+    {3,"Curva TopRad"}
+   ]},
+  {bend_verts,
+   [
+    {1,"La configurazione non genera curve"}
+   ]},
+  {menu,
+   [
+    {1,"Curva"},
+    {2,"Curva Bloccata"}
+   ]},
+  {submenu_clamp,
+   [
+    {1,"Seleziona il punto di blocco superiore"},
+    {2,"Seleziona il punto di blocco inferiore"}
+   ]},
+  {submenu_items,
+   [
+    {1,"Scegli il centro dell'asse"},
+    {2,"Scegli la parte superiore dell'asse"},
+    {3,"Scegli la normale della curva"},
+    {4,"Scegli il centro dell'asse"},
+    {5,"Scegli la parte superiore dell'asse"},
+    {6,"Seleziona l'asse del perno"},
+    {7,"Scegli la posizione del perno"},
+    {8,"Scegli il centro dell'asse"},
+    {9,"Scegli la parte superiore dell'asta"},
+    {10,"Scegli la normale della curva"}
+   ]}
+ ]}.

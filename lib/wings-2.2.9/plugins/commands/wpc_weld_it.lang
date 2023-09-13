@@ -1,0 +1,27 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_weld,
+ [
+  {draw_menu,
+   [
+    {1,"Salda"},
+    {2,"Salda il vertice selezionato a un altro (condividendo il bordo comune)"}
+   ]},
+  {weld,
+   [
+    {1,"Non è possibile saldare un vertice speculare"},
+    {2,"L'oggetto deve avere almeno 4 vertici"},
+    {3,"Si può saldare solo un vertice"}
+   ]},
+  {weld_check_selection,
+   [
+    {2,"I vertici che vuoi saldare devono condividere un bordo"},
+    {3,"Si può saldare solo su un punto"},
+    {4,"Non è selezionato nulla"},
+    {5,"Si può saldare solo nello stesso oggetto"},
+    {6,"La saldatura lascerebbe una strozzatura"}
+   ]},
+  {weld_select,
+   [
+    {1,"Selezionare il vertice di destinazione per l'operazione di saldatura (i vertici devono condividere un bordo)"}
+   ]}
+ ]}.

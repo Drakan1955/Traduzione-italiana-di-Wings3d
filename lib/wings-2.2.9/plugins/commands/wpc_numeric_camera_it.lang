@@ -1,0 +1,18 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_numeric_camera,
+ [
+  {menu_entry,
+   [
+    {1,"Coordinate della Camera"},
+    {2,"Imposta le coordinate della posizione della telecamera."}
+   ]},
+  {preview_fun,
+   [
+    {1,"Coordinate Camera"}
+   ]},
+  {set_camera_position,
+   [
+    {2,"Posizione Camera:"},
+    {3,"Punto Focale:"}
+   ]}
+ ]}.

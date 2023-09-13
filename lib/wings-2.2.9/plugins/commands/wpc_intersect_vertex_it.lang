@@ -1,0 +1,29 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_intersect_vertex,
+ [
+  {adv_submenu,
+   [
+    {1,"Resta sulla linea, spostati verso l'intersezione del piano"},
+    {2,"Resta sul piano, spostati verso la linea"},
+    {3,"Scegli la linea e il piano"}
+   ]},
+  {intersect,
+   [
+    {1,"La retta e il piano sono quasi paralleli:\nnon riesco a trovare l'intersezione."}
+   ]},
+  {menu_item,
+   [
+    {8,"Interseca"}
+   ]},
+  {submenu_items,
+   [
+    {1,"Scegli la direzione della linea - la linea passerà attraverso i vertici selezionati"},
+    {2,"Scegli il piano da intersecare"},
+    {3,"Scegli la normale del piano  - il piano passerà attraverso i vertici selezionati"},
+    {4,"Seleziona la linea da intersecare"},
+    {5,"Scegli la direzione della linea"},
+    {6,"Scegli il punto di passaggio della linea"},
+    {7,"Scegli la normale del piano"},
+    {8,"Scegli il punto di passaggio del piano"}
+   ]}
+ ]}.

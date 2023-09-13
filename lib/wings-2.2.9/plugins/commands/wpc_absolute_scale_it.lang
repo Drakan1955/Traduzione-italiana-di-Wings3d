@@ -1,0 +1,28 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_absolute_scale,
+ [
+  {draw,
+   [
+    {1,"Comandi Assoluti"},
+    {2,"Scala"},
+    {3,"Scala alla dimensione esatta in coordinate assolute"},
+    {4,"Scala alla dimensione di destinazione"},
+    {5,"Scala scegliendo il centro"}
+   ]},
+  {draw_window1,
+   [
+    {1,"Opzioni di scala assoluta"},
+    {2,"Imposta nuova dimensione"},
+    {3,"Imposta il centro della scalatura"},
+    {4,"Ridimensiona l'intero oggetto"},
+    {5,"Scala interi oggetti"},
+    {6,"Collegamento"},
+    {7,"Adatta la selezione al target"}
+   ]},
+  {selection_ask,
+   [
+    {1,"Seleziona il centro della scala"},
+    {2,"Seleziona la dimensione del bersaglio - punto base"},
+    {3,"Seleziona la dimensione del bersaglio - punto finale"}
+   ]}
+ ]}.

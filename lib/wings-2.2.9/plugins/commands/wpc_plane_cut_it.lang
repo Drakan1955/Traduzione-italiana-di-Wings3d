@@ -1,0 +1,50 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_plane_cut,
+ [
+  {axis_menu,
+   [
+    {1,"Dividi in parti uguali lungo l'asse ~s"},
+    {2," e taglia a Loop il risultato"},
+    {3,"Taglia l'oggetto attorno all'asse ~s"},
+    {4,"Taglia oggetti o facce intorno all'asse ~s per ogni vertice selezionato"},
+    {5,"Taglia le facce attorno all'asse ~s"},
+    {6,"Dividi la selezione in parti uguali lungo l'asse ~s"}
+   ]},
+  {check_selection,
+   [
+    {1,"Niente di selezionato"}
+   ]},
+  {menu_heading,
+   [
+    {1,"Piano di taglio"},
+    {2,"Dividi"}
+   ]},
+  {object_menu,
+   [
+    {1,"Divide gli oggetti in parti uguali lungo l'asse standard"},
+    {2,"Seleziona l'asse e Taglia a Loop  il risultato"},
+    {3,"Scegli l'asse"},
+    {4,"Taglia attorno all'asse standard"},
+    {5,"Scegli il piano e Taglia a Loop il risultato"},
+    {6,"Scegli il piano"}
+   ]},
+  {plane_cut_menu,
+   [
+    {1,"Taglia attorno all'asse standard"},
+    {2,"Dividi la selezione in parti uguali; scegli il piano"},
+    {3,"Scegli il piano"},
+    {4,"Taglia attorno all'asse standard in corrispondenza di ciascun vertice selezionato"}
+   ]},
+  {planecut_error,
+   [
+    {1,"L'operazione sta richiedendo troppo tempo.\nRiprova con una selezione più piccola."}
+   ]},
+  {secondary_sel_ask,
+   [
+    {2,"Seleziona gli oggetti o le facce da tagliare"}
+   ]},
+  {slices_dialog,
+   [
+    {1,"Dividi in parti uguali"}
+   ]}
+ ]}.

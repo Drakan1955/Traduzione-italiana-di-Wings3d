@@ -1,0 +1,43 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_tt,
+ [
+  {format_error,
+   [
+    {1,"Formato TTF non supportato"}
+   ]},
+  {gen,
+   [
+    {1,"Testo: "},
+    {2,"Testo: Impossibile individuare il file TTF o formato sconosciuto: "},
+    {5,"errore rilevato: "},
+    {6,"Testo fallito: errore interno"}
+   ]},
+  {get_glyph_shape_tt,
+   [
+    {1,"Formato TTF non supportato"}
+   ]},
+  {help,
+   [
+    {1,"Possono essere usati solo i font TrueType (OpenType) \ne devono essere installati nelle directory standard del sistema operativo\nper i font."}
+   ]},
+  {help_button,
+   [
+    {1,"Seleziona carattere"}
+   ]},
+  {make_text,
+   [
+    {1,"Opzioni Testo"},
+    {2,"Testo"},
+    {3,"Font TrueType"},
+    {5,"Numero di bisezioni spigolo"}
+   ]},
+  {menu_entry,
+   [
+    {1,"Testo"},
+    {2,"Converte il testo in un oggetto 3D"}
+   ]},
+  {pp_cff,
+   [
+    {1,"Formato OTF (cff) non supportato"}
+   ]}
+ ]}.

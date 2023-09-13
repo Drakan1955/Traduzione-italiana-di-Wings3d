@@ -1,0 +1,22 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_cylindrilize,
+ [
+  {axis_menu,
+   [
+    {1,"Gonfia i vertici in modo cilindrico attorno all'asse centrale ~s"},
+    {2,"Scegli il centro e il raggio"}
+   ]},
+  {cylindrilize_menu,
+   [
+    {1,"Gonfia Cilindrico"},
+    {2,"Gonfia i vertici in modo cilindrico attorno a XYZ"},
+    {3,"Scegli l'asse centrale"},
+    {4,"Scegli l'asse centrale, il punto centrale e il raggio"}
+   ]},
+  {selection_ask,
+   [
+    {1,"Scegli l'asse centrale"},
+    {2,"Scegli il punto centrale"},
+    {3,"Scegli il raggio"}
+   ]}
+ ]}.

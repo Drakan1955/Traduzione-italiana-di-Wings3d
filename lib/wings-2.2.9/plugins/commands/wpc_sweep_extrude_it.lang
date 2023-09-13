@@ -1,0 +1,62 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_sweep_extrude,
+ [
+  {axis_menu,
+   [
+    {2,"Estrudi rispetto alla percentuale del raggio di selezione"}
+   ]},
+  {axis_menu_string,
+   [
+    {1,"Estrusione libera relativa allo schermo"},
+    {3,"Se l'asse ~s è perpendicolare alla normale di estrusione, tutto il movimento sarà vincolato al suo piano radiale. In caso contrario, agisce come un componente fuori asse."}
+   ]},
+  {base_help,
+   [
+    {1,"  [4] Congela Base"},
+    {2,"  [4] Scongela Base"}
+   ]},
+  {cntr_help,
+   [
+    {1,"[1] Centro della Selezione "},
+    {2,"[1] Centro della Regione"}
+   ]},
+  {lock_help,
+   [
+    {1,"  [3] Blocca asse"},
+    {2,"  [3] Relativo allo schermo"}
+   ]},
+  {menu_string_1,
+   [
+    {1,"Estrude lungo la normale, utilizzando l'asse standard da lato a lato"},
+    {2,"Estrude la regione lungo la sua normale, utilizzando l'asse standard da lato a lato"},
+    {3,"Estrae ed estrude la regione lungo la sua normale, usando l'asse standard da lato a lato"}
+   ]},
+  {menu_title,
+   [
+    {1,"Sweep"},
+    {2,"Sweep per regione"},
+    {3,"Sweep estratta"}
+   ]},
+  {selection_ask,
+   [
+    {1,"La scelta di un asse perpendicolare alla normale dell'estrusione vincolerà tutti i movimenti al suo piano radiale. In caso contrario, agisce come un componente fuori asse."}
+   ]},
+  {sweep_error,
+   [
+    {3,"Sweep Regione non funziona per le selezioni in cui si trova la media normale (0,0,0)"}
+   ]},
+  {sweep_menu,
+   [
+    {3,"Scegli l'asse"},
+    {4,"Seleziona l'asse ed estrudi rispetto alla percentuale del raggio di selezione"}
+   ]},
+  {sweep_menu_headings,
+   [
+    {1,"Crea un'estrusione squadrata che può essere ridimensionata e attorcigliata in modo interattivo"}
+   ]},
+  {warp_help,
+   [
+    {1,"  [2] Mantieni la forma"},
+    {2,"  [2] Consenti deformazione"}
+   ]}
+ ]}.

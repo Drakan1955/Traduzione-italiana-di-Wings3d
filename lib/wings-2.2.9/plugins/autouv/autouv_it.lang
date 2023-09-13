@@ -1,0 +1,405 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{auv_mapping,
+ [
+  {chart_normal,
+   [
+    {1,"Impossibile calcolare la normale dell'oggetto."}
+   ]},
+  {find_axes,
+   [
+    {1,"Al momento non riesco a mappare una sfera/cilindro per questo tipo di oggetto/sezione,\nnon riesco a capire quali assi scegliere come X, Y e Z,\nusare il dispiegamento o una delle mappature di proiezione."}
+   ]},
+  {get_face_vspos,
+   [
+    {1,"Errore: la faccia non è triangolata ~p con ~p vertici"}
+   ]},
+  {lscm,
+   [
+    {1,"Impossibile calcolare le coordinate UV per l'ogetto"},
+    {2,"Errore di calcolo"}
+   ]},
+  {map_chart,
+   [
+    {1,"Non è possibile mappare una superficie chiusa. (Dividerla in due o più schemi, oppure tagliarla lungo i bordi.)"},
+    {2,"Un taglio su una superficie chiusa deve essere costituito da almeno due spigoli."},
+    {3,"Devono essere selezionati almeno 2 vertici (per oggetto)."},
+    {4,"Errore:"},
+    {5,"Errore, provare a ripulire gli oggetti prima della mappatura UV"}
+   ]},
+  {map_chart_1,
+   [
+    {1,"Problema numerico, probabilmente una faccia errata con un'area vuota."},
+    {2,"Errore: provare a ripulire gli oggetti prima della mappatura UV"},
+    {3,"Errore"}
+   ]},
+  {stretch_iter,
+   [
+    {1,"iterazione"}
+   ]},
+  {stretch_opt,
+   [
+    {1,"ottimizzazione"},
+    {2,"inizializzazione"},
+    {3,"Somma post-stiramento (media) ~p"}
+   ]},
+  {stretch_setup,
+   [
+    {1,"Somma stiramenti (peggiore) ~p"},
+    {2,"Somma stiramenti (media) ~p"}
+   ]}
+ ]}.
+{auv_seg_ui,
+ [
+  {mappers,
+   [
+    {1,"Dispiegamento"},
+    {2,"Proiezione Normale"},
+    {3,"Proiezione Camera"},
+    {4,"Mappa sferica"},
+    {5,"Mappa cilindrica"},
+    {6,"Dispiegamento (più lento)"}
+   ]},
+  {seg_event,
+   [
+    {1,"Segmentazione"}
+   ]},
+  {seg_event_3,
+   [
+    {1,"Continua"},
+    {2,"Segmenta per"},
+    {3,"Proiezione"},
+    {4,"Rilevamento delle caratteristiche"}
+   ]},
+  {seg_init_message,
+   [
+    {1,"Seleziona"},
+    {2,"Mostra menu"}
+   ]},
+  {seg_map_charts,
+   [
+    {1,"preparazione della mappatura"},
+    {2,"segmentazione"},
+    {3,"normalizzazione"},
+    {4,"taglio"},
+    {5,"Nessuna faccia mappabile."},
+    {6,"mappatura"}
+   ]},
+  {seg_map_charts_1,
+   [
+    {1,"oggetto"}
+   ]},
+  {seg_mode_menu,
+   [
+    {1,"Contrassegna gli spigoli per il taglio"},
+    {2,"Decontrassegna gli spigoli"},
+    {3,"Seleziona gli spigoli contrassegnati"},
+    {4,"Ignora Facce"},
+    {5,"Seleziona"}
+   ]}
+ ]}.
+{auv_texture,
+ [
+  {background,
+   [
+    {1,"Sfondo"}
+   ]},
+  {draw_options,
+   [
+    {1,"Misura"},
+    {2,"Render"},
+    {3,"Opzioni di disegno"}
+   ]},
+  {options,
+   [
+    {1,"Immagine"},
+    {2,"Colore"},
+    {3,"Disegna tutti gli spigoli"},
+    {4,"Disegna i bordi dello spigolo"},
+    {5,"Colore del bordo:"},
+    {6,"Spessore del bordo:"},
+    {8,"Usa i colori dei vertici (sui bordi degli spigoli)"}
+   ]},
+  {render_passes,
+   [
+    {1,"Sfondo"},
+    {2,"Opzioni"},
+    {3,"Opzioni"}
+   ]},
+  {renderers,
+   [
+    {1,"Nessuno"},
+    {2,"Disegna spigoli"},
+    {3,"Disegna facce"}
+   ]}
+ ]}.
+{wpc_autouv,
+ [
+  {align_error,
+   [
+    {1,"Selezionare due vertici o uno spigolo"},
+    {2,"Seleziona almeno due mappe da allineare tra loro"}
+   ]},
+  {auv_export_menu,
+   [
+    {1,"Esporta UV..."},
+    {2,"Esporta UV come forma grafica (.eps, .svg)"}
+   ]},
+  {auv_menu,
+   [
+    {1,"Mappatura UV"},
+    {2,"Genera mappa UV o texture"},
+    {3,"Forza alla modalità di segmentazione (elimina i vecchi segmenti)"},
+    {25,"Ri-segmenta oggetto/i"}
+   ]},
+  {auv_show_menu,
+   [
+    {1,"Mostra/Nascondi l'immagine di sfondo"},
+    {2,"Attiva/disattiva la visualizzazione dell'immagine della texture di sfondo"}
+   ]},
+  {command_menu,
+   [
+    {2,"Muovi"},
+    {3,"Sposta le mappe selezionate"},
+    {4,"Scala"},
+    {5,"Scala le mappe selezionate"},
+    {6,"Ruota"},
+    {7,"Routa le mappe selezionate"},
+    {8,"Muovi verso"},
+    {9,"Centro"},
+    {10,"Sposta verso il centro"},
+    {11,"Centro X"},
+    {12,"Sposta al centro orizzontale"},
+    {13,"Centro Y"},
+    {14,"Sposta al centro verticale"},
+    {15,"In basso"},
+    {16,"Sposta al bordo inferiore"},
+    {17,"In alto"},
+    {18,"Sposta al bordo superiore"},
+    {19,"Sinistra"},
+    {20,"Sposta al bordo sinistro"},
+    {21,"Destra"},
+    {22,"Sposta al bordo destro"},
+    {23,"Sposta le mappe alla posizione"},
+    {24,"Capovolgi"},
+    {25,"Orizzontale"},
+    {26,"Capovolge la selezione orizzontalmente"},
+    {27,"Verticale"},
+    {28,"Capovolgi la selezione verticalmente"},
+    {29,"Capovolgi le mappe selezionate"},
+    {30,"Restringi"},
+    {31,"Sposta le coordinate UV verso il punto centrale medio"},
+    {32,"Nascondi"},
+    {33,"Nasconde le mappe selezionati mantenendo le coordinate UV"},
+    {34,"Elimina"},
+    {35,"Rimuove le coordinate UV dai grafici selezionati"},
+    {36,"Rimappa UV"},
+    {37,"Ottimizzazione stiramento"},
+    {38,"Ottimizza lo stiramento della mappa"},
+    {39,"Dispiega"},
+    {40,"Apre l'oggetto"},
+    {41,"Proietta normali"},
+    {42,"Proietta le coordinate UV secondo le normali dell'oggetto"},
+    {43,"Sferica"},
+    {44,"Mappatura sferica"},
+    {45,"Calcola nuovi UV con l'algoritmo scelto"},
+    {47,"Muovi"},
+    {48,"Sposta le facce selezionate"},
+    {49,"Scala"},
+    {50,"Ridimensiona le facce selezionate"},
+    {51,"Ruota"},
+    {52,"Ruota le facce selezionate"},
+    {53,"Libero"},
+    {54,"Ruota liberamente la selezione"},
+    {55,"Mappa a X"},
+    {56,"Ruota la mappa per allineare il bordo selezionato all'asse X"},
+    {57,"Mappa a Y"},
+    {58,"Ruota la mappa per allineare il bordo selezionato all'asse Y"},
+    {60,"Sposta"},
+    {61,"Sposta i bordi selezionati"},
+    {62,"Scala"},
+    {63,"Ridimensiona i bordi selezionati"},
+    {64,"Ruota"},
+    {65,"Comandi di rotazione "},
+    {66,"Cuci"},
+    {67,"Unisce bordi/mappe"},
+    {68,"Taglia"},
+    {69,"Taglia i bordi selezionati"},
+    {70,"Libero"},
+    {71,"Ruota liberamente la selezione"},
+    {72,"Mappa a X"},
+    {73,"Ruota il grafico per allineare il bordo (immaginario) che unisce i vertici selezionati all'asse X"},
+    {74,"Mappa a Y"},
+    {75,"Ruota il grafico per allineare il bordo (immaginario) che unisce i vertici selezionati all'asse Y"},
+    {77,"Muovi"},
+    {78,"Sposta i vertici selezionati"},
+    {79,"Scala"},
+    {80,"Scala i vertici selezionati"},
+    {81,"Ruota"},
+    {82,"Comandi di rotazione"},
+    {83,"Appiattisci"},
+    {84,"Appiattisci orizzontalmente"},
+    {85,"Appiattisci verticalmente"},
+    {86,"Appiattisci i vertici selezionati"},
+    {87,"Restringi"},
+    {88,"Sposta le coordinate UV verso il punto centrale medio"},
+    {89,"Dispiega"},
+    {90,"Apre la mappa (senza spostare i vertici selezionati)"},
+    {91,"Mappa sferica"},
+    {92,"Crea una mappatura sferica con i vertici selezionati come polo nord/sud"},
+    {93,"Allinea"},
+    {94,"Allinea le mappe l'una rispetto all'altra"},
+    {95,"Allinea in basso"},
+    {96,"Allinea in alto"},
+    {97,"Allinea a sinistra"},
+    {98,"Allinea a destra"},
+    {391,"Dispiega (lento)"},
+    {392,"Apre l'oggetto, è lento per oggetti con molte facce ma migliore"},
+    {411,"Normalizza dimensioni"},
+    {412,"Normalizza le dimensioni degli ogetti in modo che ognuno ottenga la corrispondente area 2d"},
+    {521,"Proietta-Dispiegato"},
+    {522,"Proietta le facce selezionate lungo la normale e dispiega il resto del grafico"},
+    {641,"Slitta"},
+    {642,"Slitta lungo i bordi adiacenti"},
+    {643,"Distribuisci"},
+    {644,"Distribuisci orizzontalmente"},
+    {645,"Distribuisci verticalmente"},
+    {646,"Distribuisci i vertici uniformemente"}
+   ]},
+  {create_window,
+   [
+    {1,"Segmentazione"}
+   ]},
+  {drag_filter,
+   [
+    {1,"Rilascia: cambia l'immagine della texture"}
+   ]},
+  {handle_event_3,
+   [
+    {1,"Seleziona"},
+    {2,"Mostra menu"}
+   ]},
+  {menu,
+   [
+    {1,"Finestra dell'editor UV"},
+    {2,"Apre una finestra dell'editor UV per ogni oggetto selezionato"}
+   ]},
+  {move_directions,
+   [
+    {1,"Libero"},
+    {2,"Spostamento in entrambe le direzioni"},
+    {3,"Orizzontale"},
+    {4,"Sposta orizzontalmente (X dir)"},
+    {5,"Verticale"},
+    {6,"Sposta verticalmente (Y dir)"}
+   ]},
+  {option_menu,
+   [
+    {1,"Crea texture"},
+    {2,"Crea e assegna una texture al modello"}
+   ]},
+  {remap,
+   [
+    {1,"Seleziona due vertici, il polo nord e il polo sud"},
+    {2,"Devono essere bloccati almeno due vertici per oggetto"},
+    {3,"rimappatura"},
+    {4,"oggetto"},
+    {5,"Non è possibile bloccare tutti i vertici"}
+   ]},
+  {scale_directions,
+   [
+    {1,"Uniforme"},
+    {2,"Scala in entrambe le direzioni"},
+    {3,"Orizzontale"},
+    {4,"Scale horizontally (X dir)"},
+    {5,"Verticale"},
+    {6,"Scala verticalmente (Y dir)"}
+   ]},
+  {start_uvmap,
+   [
+    {1,"Niente di selezionato"}
+   ]},
+  {stitch_charts,
+   [
+    {1,"Hmm, non posso collegare così tanti schemi contemporaneamente"}
+   ]},
+  {stretch_directions,
+   [
+    {1,"Massimizza uniformemente"},
+    {2,"Massimizza sia orizzontalmente che verticalmente"},
+    {3,"Massimizza orizzontale"},
+    {4,"Massimizza orizzontalmente (X dir)"},
+    {5,"Massimizza Verticale"},
+    {6,"Massimizza verticalmente (Y dir)"},
+    {7,"Massimizza utilizzando la dimensione orizzontale"},
+    {8,"Massimizza utilizzando la dimensione verticale"}
+   ]}
+ ]}.
+{wpc_snap_win,
+ [
+  {proportional_scale,
+   [
+    {1,"...alla X corrente"},
+    {2,"Ridimensiona il valore Y delle immagini in modo che sia proporzionale al valore X corrente"},
+    {3,"...alla Y corrente"},
+    {4,"Ridimensiona il valore X delle immagini in modo che sia proporzionale al valore Y corrente"},
+    {5,"Dimensione reale"},
+    {6,"Ripristina l'immagine alle sue dimensioni reali"}
+   ]},
+  {snap_label,
+   [
+    {1,"Seleziona Immagine"},
+    {2,"Attiva"},
+    {3,"Disattiva"},
+    {4,"Aggancia immagine"},
+    {5,"Opacità"},
+    {6,"Rouota"},
+    {7,"Sposta"},
+    {8,"Scala"},
+    {9,"Adatta"},
+    {10,"Immagine tassellata"}
+   ]},
+  {snap_menu,
+   [
+    {1,"Orizzontale"},
+    {2,"Scala l'immagine di sfondo orizzontalmente"},
+    {3,"Verticale"},
+    {4,"Scala l'immagine di sfondo verticalmente"},
+    {5,"Liberamente"},
+    {6,"Scala liberamente l'immagine di sfondo"},
+    {7,"Uniformemente"},
+    {8,"Scala uniformemente l'immagine di sfondo"},
+    {10,"Sposta l'immagine di sfondo orizzontalmente"},
+    {12,"Sposta l'immagine di sfondo verticalmente"},
+    {14,"Sposta liberamente l'immagine di sfondo"},
+    {22,"Entrambi"},
+    {26,"Centra X"},
+    {27,"Centra l'immagine di sfondo orizzontalmente"},
+    {28,"Centra Y"},
+    {29,"Centrare l'immagine di sfondo verticalmente"},
+    {30,"Centra"},
+    {31,"Centra l'immagine di sfondo rispetto alla finestra"},
+    {32,"Proporzionale"},
+    {33,"Rende proporzionale la scala dell'immagine"}
+   ]},
+  {snap_tooltip,
+   [
+    {1,"Selezionare l'immagine da utilizzare per lo snap"},
+    {2,"Avvia la modalità snap per \"agganciare\" le coordinate UV su un'immagine"},
+    {3,"Esce dalla modalità snap"},
+    {4,"Mette l'immagine di sfondo sulle facce selezionate assegnando loro le coordinate UV"},
+    {5,"Definisce quanto è traslucida l'immagine sullo schermo"},
+    {6,"Ruota l'immagine di sfondo"},
+    {7,"Sposta l'immagine di sfondo"},
+    {8,"Ridimensiona l'immagine di sfondo"},
+    {9,"Adatta l'immagine alle dimensioni del viewport"},
+    {10,"Disegna ripetutamente l'immagine "}
+   ]},
+  {snap_win_menu,
+   [
+    {2,"Mostra la finestra di snap dell'immagine"}
+   ]},
+  {title,
+   [
+    {1,"Snap Immagine"}
+   ]}
+ ]}.

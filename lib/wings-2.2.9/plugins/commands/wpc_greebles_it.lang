@@ -1,0 +1,44 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_greebles,
+ [
+  {add_menu,
+   [
+    {1,"Greebles"},
+    {2,"Crea estrusioni casuali"}
+   ]},
+  {command,
+   [
+    {1,"Opzioni Greeble"},
+    {20,"Inserisci tutto"},
+    {21,"Dividi facce"},
+    {22,"Solo primo inserto"},
+    {25,"Ripeti"},
+    {30,"% di selezione casuale"},
+    {31,"% di modifica selezione"},
+    {32,"Limiti"},
+    {41,"Scala casuale per faccia"},
+    {42,"Scala casuale per vertice"},
+    {43,"Inserisci modificatori"},
+    {50,"Altezza standard"},
+    {51,"Modificatore di altezza"},
+    {52,"Altezza casuale per faccia"},
+    {53,"Altezza casuale per vertice"},
+    {55,"Modificatori di altezza"}
+   ]},
+  {info,
+   [
+    {1,"Dopo aver diviso una faccia, sposta il bordo nella stessa direzione"},
+    {2,"Numero di volte che l'operazione deve essere ripetuta"},
+    {3,"Numero casuale di faccia su cui continuare a operare"},
+    {4,"Dopo ogni ripetizione moltiplica questo valore per il precedente"},
+    {5,"Inserisci prima di estrudere su tutte le ripetizioni"},
+    {6,"Inserisci prima dell'estrusione alla prima operazione"},
+    {7,"Percentuale di diminuzione dell'area della faccia dopo ogni operazione"},
+    {8,"Modifica in modo casuale la dimensione dell'area"},
+    {9,"Modifica in modo casuale i movimenti del vertice"},
+    {10,"Lunghezza da estrudere"},
+    {11,"Multiply this value with the height each repetition"},
+    {12,"Modifica in modo casuale l'altezza per faccia"},
+    {13,"Modifica in modo casuale l'altezza per vertice"}
+   ]}
+ ]}.

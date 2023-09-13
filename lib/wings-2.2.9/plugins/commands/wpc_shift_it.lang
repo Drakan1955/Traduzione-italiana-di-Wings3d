@@ -1,0 +1,22 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_shift,
+ [
+  {adv_submenu,
+   [
+    {1,"Dislocamento Planare"},
+    {2,"Dislocamento Sferico"},
+    {3,"Dislocamento Cilindrico"}
+   ]},
+  {menu_heading,
+   [
+    {1,"Disloca"}
+   ]},
+  {submenu_items,
+   [
+    {1,"Scegli l'asse"},
+    {2,"Scegli il punto"},
+    {3,"Scegli il centro"},
+    {4,"Scegli l'asse"},
+    {5,"Scegli il punto"}
+   ]}
+ ]}.

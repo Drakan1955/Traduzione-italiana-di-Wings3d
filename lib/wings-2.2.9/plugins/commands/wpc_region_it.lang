@@ -1,0 +1,19 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_region,
+ [
+  {menu,
+   [
+    {1,"Regione"},
+    {2,"Sposta la regione selezionata lungo la normale del suo edge-loop."},
+    {3,"Regione"},
+    {4,"Ridimensiona la regione selezionata sul piano del suo edge-loop."},
+    {5,"Regione"},
+    {6,"Ruota la regione selezionata attorno alla normale del suo edge-loop."},
+    {7,"Regione"},
+    {8,"Appiattisce la regione selezionata alla normale del suo edge-loop."}
+   ]},
+  {region_error,
+   [
+    {1,"Ogni regione deve avere esattamente un edge-loop."}
+   ]}
+ ]}.

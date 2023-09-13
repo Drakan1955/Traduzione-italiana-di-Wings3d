@@ -1,0 +1,8 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{collada_import,
+ [
+  {import,
+   [
+    {1,"formato sconosciuto/non gestito, vedere la finestra del registro"}
+   ]}
+ ]}.

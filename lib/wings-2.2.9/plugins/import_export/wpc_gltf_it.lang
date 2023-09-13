@@ -1,0 +1,12 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_gltf,
+ [
+  {dialog,
+   [
+    {200,"Tipo di file"}
+   ]},
+  {do_export,
+   [
+    {1,"gl Opzioni di Esportazione del Formato di Trasmissione"}
+   ]}
+ ]}.

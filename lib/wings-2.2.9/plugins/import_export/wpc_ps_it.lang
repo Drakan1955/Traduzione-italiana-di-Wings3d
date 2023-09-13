@@ -1,0 +1,24 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_ps,
+ [
+  {command,
+   [
+    {2,"Numero di bisezioni di spigolo"},
+    {4,"Opzioni di importazione PS/EPS"},
+    {5,"File PostScript"},
+    {6,"File Encapsulated PostScript"}
+   ]},
+  {make_ps,
+   [
+    {1,"Importazione PS non riuscita"},
+    {2,"Errore interno di importazione PS"}
+   ]},
+  {try_import_ps,
+   [
+    {1,"Non un file Adobe PostScript"},
+    {2,"Il file non ha una struttura di token valida"},
+    {3,"Creatore di file non supportato"},
+    {4,"Il file non corrisponde o non ha percorsi validi"},
+    {5,"Alcune strutture di token nel file non erano valide e sono state ignorate"}
+   ]}
+ ]}.

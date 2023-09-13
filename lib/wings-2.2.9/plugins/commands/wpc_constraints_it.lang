@@ -1,0 +1,159 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_constraints,
+ [
+  {angle_error,
+   [
+    {1,"Devono essere selezionati esattamente due elementi"}
+   ]},
+  {axis_to_string,
+   [
+    {2,"lungo il vettore <~s  ~s  ~s>"},
+    {3,"lungo l'asse ~s"}
+   ]},
+  {check_selection,
+   [
+    {1,"Niente di selezionato"},
+    {3,"La lunghezza attuale è troppo corta. Seleziona i bordi che non sono perpendicolari all'asse scelto."},
+    {4," Originale ~s ~s\n Corrente ~s ~s\n Percentuale ~s%  Reciproca ~s%"},
+    {5,"La percentuale risultante è troppo piccola"},
+    {6,"La differenza è troppo piccola"},
+    {7," Originale ~s ~s\n Corrente ~s ~s\n Differenza ~s"},
+    {8,"La distanza tra i centri è troppo breve"},
+    {9," Centro originale ~s\n Centro Corrente ~s\n Distanza ~s ~s"},
+    {10,"L'area attuale è troppo piccola"},
+    {11," Angolo originale ~s"},
+    {12,"\n Angolo corrente ~s"},
+    {13,"\n Differenza ~s"},
+    {14,"Selezionare esattamente due spigoli o due facce per definire l'angolo"},
+    {15," Originale"},
+    {16," Angolo ~s"}
+   ]},
+  {element_error,
+   [
+    {1,"Deve essere selezionato esattamente un elemento"}
+   ]},
+  {general_menu,
+   [
+    {1,"Imposta Vincoli"}
+   ]},
+  {general_menu2,
+   [
+    {1,"Scegli un asse diverso per misurare la seconda selezione"}
+   ]},
+  {length_check,
+   [
+    {1,"La selezione deve avere un'area maggiore di zero"},
+    {2,"La selezione deve avere una lunghezza maggiore di zero"},
+    {3,"La lunghezza lungo il vettore è troppo piccola"},
+    {4,"La lunghezza lungo l'asse ~s è troppo piccola"}
+   ]},
+  {menu_heading,
+   [
+    {1,"Normale"},
+    {2,"Scelta"},
+    {3,"Direzione"},
+    {4,"Angolo"},
+    {5,"15"},
+    {6,"22.5"},
+    {7,"30"},
+    {8,"45"},
+    {9,"60"},
+    {10,"90"}
+   ]},
+  {menu_string1,
+   [
+    {1,"Somma le lunghezze dei bordi selezionati e salva il risultato come vincolo di distanza nelle Preferenze"},
+    {2,"Calcola la lunghezza media dei bordi selezionati e salva il risultato come vincolo di distanza nelle Preferenze"},
+    {3,"Calcola l'angolo tra due qualsiasi ~s e salva il risultato come vincolo di rotazione nelle Preferenze"},
+    {4,"Calcola la differenza tra due angoli e salva il risultato come vincolo di rotazione nelle Preferenze"},
+    {5,"Misura l'angolo tra un singolo ~s e un asse standard o un vettore definito. Salva il risultato come vincolo di rotazione nelle Preferenze"},
+    {6,"Calcola la differenza di scala tra le ~s di due selezioni ~s e salva il risultato come vincolo di scala nelle Preferenze"},
+    {7,"Calcola la differenza in ~s tra due selezioni ~s e salva il risultato come vincolo di distanza nelle Preferenze"},
+    {8,"Calcola la distanza tra i punti centrali di due selezioni e salva il risultato come vincolo di distanza nelle Preferenze"}
+   ]},
+  {menu_string2,
+   [
+    {1,"Misura le ~s di entrambe le selezioni in base alle loro normali ~s"},
+    {2,"Scegli un asse lungo il quale misurare entrambe le selezioni ~s"},
+    {3,"Misura le ~s di entrambe le selezioni solo lungo l'asse ~s"}
+   ]},
+  {menu_string3,
+   [
+    {1,"Misura i bordi selezionati lungo le loro normali"},
+    {2,"Scegli un asse lungo il quale misurare i bordi selezionati"},
+    {3,"Misura i bordi selezionati solo lungo l'asse ~s"},
+    {4,"Misura l'angolo selezionato"},
+    {5,"Specifica l'asse da cui misurare l'angolo selezionato"},
+    {6,"Misura l'angolo selezionato visto dall'asse ~s"},
+    {7,"Misura la distanza tra i centri delle due selezioni"},
+    {8,"Scegli un asse lungo il quale misurare la distanza tra i centri delle due selezioni"},
+    {9,"Misura solo la distanza lungo l'asse ~s tra i centri delle due selezioni"},
+    {11,"Scegli un asse lungo il quale misurare i ~s dei ~s della selezione ~s"},
+    {12,"Misura le ~s delle ~s della selezione ~s solo lungo l'asse ~s"},
+    {13,"Misura le ~s delle ~s della selezione ~s lungo le normali"},
+    {18,"Sottrai l'angolo attualmente selezionato da ~s"},
+    {19,"Scegli un secondo angolo da cui sottrarre l'angolo attualmente selezionato"},
+    {20,"Scegli un vettore e calcola l'angolo rispetto all'originale ~s"},
+    {21,"Calcola l'angolo dall'asse ~s all'originale ~s"},
+    {22," e quindi calcola la loro lunghezza media"}
+   ]},
+  {menu_title,
+   [
+    {1,"Lunghezza totale"},
+    {2,"Lunghezza media"},
+    {3,"Angolo"},
+    {4,"Sottrai Angolo"},
+    {5,"Da bordo ad asse"},
+    {6,"Da faccia ad asse"},
+    {7,"Percentuale"},
+    {8,"Differenza"},
+    {9,"Centri"}
+   ]},
+  {mod_string,
+   [
+    {1,". Vincolo associato ai tasti modificatori in attesa."}
+   ]},
+  {mode_strings,
+   [
+    {1,"vertici"},
+    {2,"bordi"},
+    {3,"facce"},
+    {4,"vertici"},
+    {5,"bordo"},
+    {6,"faccia"},
+    {8,"secondo"},
+    {9,"distanza"},
+    {10,"lunghezze"},
+    {11,"aree"}
+   ]},
+  {secondary_sel_ask,
+   [
+    {1,"Seleziona i bordi da dividere nella selezione originale"},
+    {2,"Seleziona i bordi da sottrarre dalla selezione originale"},
+    {3,"Il centro della selezione determinerà la distanza dal centro della selezione originale"},
+    {4,"Seleziona le facce la cui area totale sarà divisa nell'area della prima selezione"},
+    {5,"Selezionare un angolo formato da due spigoli o due facce da cui sottrarre l'angolo originale"}
+   ]},
+  {selection_ask,
+   [
+    {1,"Scegli l'asse lungo il quale verrà misurato ogni bordo"},
+    {2," per la prima selezione"},
+    {3," per la seconda selezione"},
+    {4,"Scegli l'asse lungo il quale l'angolo verrà misurato ortograficamente"},
+    {5,"Scegli un asse per misurare la distanza tra i centri delle selezioni"},
+    {6,"Scegli un asse lungo il quale verranno misurate ortograficamente le aree della prima selezione"},
+    {7,"Scegli un asse lungo il quale verranno misurate ortograficamente le aree della seconda selezione"},
+    {8,"Scegli il vettore per calcolare l'angolo rispetto alla selezione originale"}
+   ]},
+  {set_constraint,
+   [
+    {1,"Il vincolo ~ts legato a ~ts è ora impostato a ~p"}
+   ]},
+  {tag,
+   [
+    {1,"Rotazione"},
+    {2,"Fattore di Scala"},
+    {3,"Distanza"},
+    {4,"Distanza alternativa"}
+   ]}
+ ]}.

@@ -1,0 +1,13 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_doosabin,
+ [
+  {command,
+   [
+    {1,"Doo-Sabin"}
+   ]},
+  {menu_entry,
+   [
+    {1,"Suddivisione Doo Sabin"},
+    {2,"Crea una suddivisione Doo-Sabin secondo WasaMonkey (ATTENZIONE: incasina tutte le coordinate UV)"}
+   ]}
+ ]}.

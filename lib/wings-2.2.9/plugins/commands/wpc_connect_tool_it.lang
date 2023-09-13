@@ -1,0 +1,21 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_connect_tool,
+ [
+  {help,
+   [
+    {1,"Selezionare il vertice o il bordo tagliato [premere il pulsante per scorrere]"},
+    {2,"Esci da Connetti"},
+    {3,"Collega bordi/vertici [riseleziona l'ultimo vertice per finire]"},
+    {4,"Esci da Connetti"}
+   ]},
+  {lc_help,
+   [
+    {1,"Connessione loop disattivata"},
+    {2,"Connessione in loop attivo"}
+   ]},
+  {menu,
+   [
+    {1,"Connetti"},
+    {2,"Modalità per collegare rapidamente vertici e spigoli"}
+   ]}
+ ]}.

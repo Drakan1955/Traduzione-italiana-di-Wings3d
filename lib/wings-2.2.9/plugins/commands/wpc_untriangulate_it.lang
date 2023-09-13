@@ -1,0 +1,39 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_untriangulate,
+ [
+  {get_ask_list,
+   [
+    {1,"Forza dell'algoritmo"},
+    {2,"La forza dell'algoritmo più elevata è più lenta, ma può produrre risultati migliori"},
+    {3,"Angolo massimo del bordo"},
+    {4,"Angolo massimo dei bordi che vengono dissolti"},
+    {5,"Controlla i Materiali"},
+    {6,"Do not dissolve edges along material boundaries"},
+    {7,"Check UV Coords"},
+    {8,"Non dissolvere i bordi lungo i limiti delle coordinate della trama dove è presente un taglio"},
+    {9,"Controlla Bordi Netti"},
+    {10,"Non dissolvere i bordi netti"},
+    {11,"Check Concavity"},
+    {12,"Non produrre poligoni concavi"}
+   ]},
+  {menu,
+   [
+    {1,"Detriangola"},
+    {2,"Converti i gruppi di triangoli in quad"},
+    {3,"Detriangola"}
+   ]},
+  {pref_edit,
+   [
+    {1,"Preferenze di detriangolazione (v0.2)"}
+   ]},
+  {process_edges,
+   [
+    {1,"Detriangola"},
+    {2,"Scegliere i bordi di destinazione"},
+    {3,"Creare l'albero di selezione"}
+   ]},
+  {untriangulate,
+   [
+    {1,"Detriangolazione (v0.2)"}
+   ]}
+ ]}.

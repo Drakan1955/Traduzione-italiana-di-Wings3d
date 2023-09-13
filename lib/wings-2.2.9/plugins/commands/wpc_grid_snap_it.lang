@@ -1,0 +1,22 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_grid_snap,
+ [
+  {command,
+   [
+    {1,"Origine della griglia virtuale"}
+   ]},
+  {grid_snap_menu,
+   [
+    {1,"Immettere l'origine numericamente"},
+    {2,"Seleziona il punto di origine su cui basare la griglia"}
+   ]},
+  {menu_heading,
+   [
+    {1,"Aggancia i vertici selezionati a una griglia virtuale"},
+    {2,"Aggancia alla griglia"},
+    {3," lungo X"},
+    {4," lungo Y"},
+    {5," lungo Z"},
+    {6," radialmente"}
+   ]}
+ ]}.

@@ -1,0 +1,54 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_shear,
+ [
+  {glide_plane_menu,
+   [
+    {1,"Superfici del piano di slittamento rivolte verso ~s.(Parallelo alla direzione cui è limitato il movimento del vertice)"},
+    {2,"Seleziona il vettore di slittamento e l'origine. (Punto di misurazione calcolato automaticamente)"},
+    {3,"Selezionare il vettore di slittamento, l'origine e il punto di misurazione"}
+   ]},
+  {radial_menu,
+   [
+    {3,"Limita il movimento del vertice ai vettori di slittamento ~s attraverso i loro singoli piani di slittamento rivolti verso l'alto ~s"},
+    {4,".(Origine e punto di misurazione calcolati automaticamente)"},
+    {5,"Selezionare Origine e Punto di Misurazione"}
+   ]},
+  {selection_ask,
+   [
+    {1,"Seleziona piano di slittamento"},
+    {2," (piano rispetto a cui tutti i vertici si muovono paralleli)"},
+    {3,"Seleziona Origine (punto che definisce il piano di slittamento stazionario)"},
+    {4,"Seleziona il Vettore di slittamento"},
+    {5," (i vertici di direzione si sposteranno attraverso i loro singoli piani di slittamento)"},
+    {6,"Selezionare il Punto di Misurazione"},
+    {7," (punto in base al quale verrà misurato il movimento attraverso il piano di slittamento)"},
+    {8,"Riselezionare Vettore di slittamento"},
+    {9,". Non può essere perpendicolare al piano di slittamento specificato"},
+    {10,"Riseleziona Punto di Misurazione"},
+    {11,". Deve trovarsi su un piano di slittamento unico verso l'origine specificata"},
+    {12,"Riseleziona il Piano di Slittamento"},
+    {13," Non può essere parallelo al vettore di slittamento specificato"}
+   ]},
+  {shear,
+   [
+    {1,"Slitta"},
+    {2,"Slitta XYZ"},
+    {3,"Selezionare il piano di slittamento parallelo al quale il movimento sarà limitato, il vettore di slittamento, il piano di slittamento stazionario che definisce l'origine e il punto di misurazione per la distanza"}
+   ]},
+  {shear_anchor_help,
+   [
+    {1,"Blocca Origine"},
+    {2,"Origine Libera"}
+   ]},
+  {shear_dir_help,
+   [
+    {1,"Asimmetrico"},
+    {2,"Simmetrico"}
+   ]},
+  {shear_mode_help,
+   [
+    {1,"Relativo"},
+    {2,"Angolo"},
+    {3,"Assoluto"}
+   ]}
+ ]}.

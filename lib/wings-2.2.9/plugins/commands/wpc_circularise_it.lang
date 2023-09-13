@@ -1,0 +1,71 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_circularise,
+ [
+  {angle_help,
+   [
+    {1,"  [3] Usa angolo ottuso"},
+    {2,"  [3] Usa angolo acuto"}
+   ]},
+  {check_selection,
+   [
+    {1,"Niente di selezionato"},
+    {2,"Punto salvato come posizione stabile del raggio."},
+    {3,"È possibile selezionare solo un vertice o uno spigolo dall'anello di spigolo originale."},
+    {4,"È possibile selezionare solo un singolo bordo o vertice."}
+   ]},
+  {circ_norm_help,
+   [
+    {1,"  [2] Normale del piano inversa "},
+    {2,"  [2] Normale del piano originale"}
+   ]},
+  {circ_sel_error,
+   [
+    {3,"La selezione deve consistere in uno o più loop di bordi aperti\non in un singolo loop chiuso"}
+   ]},
+  {circ_sel_error_1,
+   [
+    {1,"I loop di bordo selezionati potrebbero non condividere i vertici"}
+   ]},
+  {circ_sel_error_3,
+   [
+    {2,"Le selezioni che includono singoli bordi non possono essere elaborate"}
+   ]},
+  {circ_sel_error_4,
+   [
+    {2,"I loop di spigoli selezionati devono essere non intersecanti ed essere tutti aperti o tutti chiusi."}
+   ]},
+  {circular_arc_menu,
+   [
+    {1,"Circolarizza"},
+    {2,"Appiattisce, equalizza e gonfia gli spigoli selezionati rendendoli circolari"},
+    {5,"Scegli il piano comune su cui appiattire i loop"},
+    {6,"Specifica utilizzando le selezioni secondarie"}
+   ]},
+  {flatten_help,
+   [
+    {1,"[1] Non appiattire"},
+    {2,"[1] Appiattisci"}
+   ]},
+  {norm_help,
+   [
+    {1,"  [2] Normale arco inversa "},
+    {2,"  [2] Normale arco originale"}
+   ]},
+  {radius_help,
+   [
+    {1,"  [3] Usa diametro assoluto"},
+    {2,"  [3] Usa diametro relativo"}
+   ]},
+  {secondary_sel_ask,
+   [
+    {1,"Seleziona un singolo bordo o vertice dall'anello di bordo originale che segna il raggio stabile dal punto centrale"},
+    {2,"Scegli il punto centrale"},
+    {3,"Scegli il piano"}
+   ]},
+  {selection_ask,
+   [
+    {1,"Scegli il piano"},
+    {2,"Scegli il punto centrale"},
+    {3,"Scegli il punto da cui verrà calcolato il centro rispetto al piano scelto e alle estremità della selezione del bordo"}
+   ]}
+ ]}.

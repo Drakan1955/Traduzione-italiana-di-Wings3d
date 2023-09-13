@@ -1,0 +1,64 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_sel_win,
+ [
+  {delete_groups,
+   [
+    {1,"Sei sicuro di voler eliminare tutti i gruppi di selezione?"},
+    {2,"Sei sicuro di voler rimuovere i gruppi non validi?"}
+   ]},
+  {group_basic_menu,
+   [
+    {5,"Aggiungi al gruppo"},
+    {6,"Aggiunge la selezione corrente al gruppo \""},
+    {7,"Sottrai dal gruppo"},
+    {8,"Sottrae la selezione corrente dal gruppo \""}
+   ]},
+  {group_bool_menu,
+   [
+    {11,"Unione gruppo"},
+    {12,"Unione gruppo \""},
+    {13,"\" con \""},
+    {14,"Sottrai gruppo"},
+    {15,"Sottrae gruppo \""},
+    {16,"\" da \""},
+    {17,"Intersezione gruppo"},
+    {18,"Intersezione gruppo \""},
+    {19,"\" con \""}
+   ]},
+  {group_del_menu,
+   [
+    {3,"Elimina gruppo"},
+    {4,"Elimina gruppo \""},
+    {20,"Rinomina"},
+    {21,"Rinomina gruppo \""},
+    {22,"Cancella Tutto"},
+    {23,"Elimina tutti i gruppi"},
+    {24,"Rimuovi gruppi non validi"},
+    {25,"Rimuove tutti i gruppi non validi"}
+   ]},
+  {group_ins_menu,
+   [
+    {1,"Nuovo gruppo..."},
+    {2,"Crea un nuovo gruppo di selezione"}
+   ]},
+  {group_replace_menu,
+   [
+    {4,"Sostituisce gruppo \""},
+    {26,"Sostituisci gruppo"}
+   ]},
+  {rename,
+   [
+    {1,"Rinomina"},
+    {2,"Nome corrente"},
+    {3,"Nuovo nome"}
+   ]},
+  {sel_group_menu,
+   [
+    {1,"Gestione Gruppi di Selezione"},
+    {2,"Mostra la finestra dei gruppi di selezione"}
+   ]},
+  {title,
+   [
+    {1,"Gruppi di selezione"}
+   ]}
+ ]}.

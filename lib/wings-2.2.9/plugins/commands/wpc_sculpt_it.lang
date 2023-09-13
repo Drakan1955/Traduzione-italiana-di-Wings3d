@@ -1,0 +1,88 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_sculpt,
+ [
+  {constraint_info,
+   [
+    {1,"Predefinito"},
+    {2,"Radiale di ~s"},
+    {3,"Nessuno"},
+    {4,"Vincolo: ~s"}
+   ]},
+  {constraints_menu,
+   [
+    {1,"Vincola il movimento all'asse ~s."},
+    {3,"Asse predefinito"},
+    {4,"Predefinito"},
+    {5,"Radiale di ~s"},
+    {6,"Radiale dell'asse predefinito"},
+    {7,"Vincola il movimento alla radiale dell'asse ~s."},
+    {8,"Cancella vincoli"}
+   ]},
+  {exit_string,
+   [
+    {1,"Esci"}
+   ]},
+  {help,
+   [
+    {1,"L: Scolpisci"},
+    {2,"[Alt]+R: Menu Scultura"},
+    {3,"Magnete: ~s"},
+    {4,"Alt+Trascina: Regola il raggio"},
+    {5,"Alt+Scroll(+[Shift]): "},
+    {6,"Regola la forza"},
+    {7,"Forza: ~p"},
+    {8,"Raggio: ~s"},
+    {9,"Nessuno (Il magnete è spento)"},
+    {10,"Modalità Scultura"},
+    {11,"Premere [Ctrl]: Schiaccia"},
+    {12,"Premere [Ctrl]: Gonfia"},
+    {13,"Premere [Shift]: Liscia"}
+   ]},
+  {magtype,
+   [
+    {1,"Campana"},
+    {2,"Cupola"},
+    {3,"Rettilineo"},
+    {4,"Punta"},
+    {5,"Assoluto"}
+   ]},
+  {mode,
+   [
+    {1,"Premi"},
+    {2,"Tira"},
+    {3,"Pizzica"},
+    {4,"Liscia"},
+    {5,"Gonfia"}
+   ]},
+  {prefs,
+   [
+    {1,"Forza"},
+    {3,"Limita scultura all'oggetto iniziale"},
+    {4,"Mostra l'influenza del magnete"},
+    {10,"Preferenze Scultura"}
+   ]},
+  {sculpt_heading,
+   [
+    {1,"Scultura"},
+    {2,"Entra in modalità scultura"}
+   ]},
+  {sculpt_menu,
+   [
+    {1,"Magnete On/Off"},
+    {2,"Maschera Magnete On/Off"},
+    {3,"Preferenze"},
+    {4,"Attiva il tool Tira/Spingi"},
+    {5,"Attiva il tool Pizzica/Gonfia"},
+    {6,"Attiva il pennello levigante"},
+    {7,"Attiva il magnete a cupola"},
+    {8,"Attiva il magnete assoluto"},
+    {9,"Attiva il magnete dritto"},
+    {10,"Attiva il magnete a punta"},
+    {11,"Attiva il magnete a campana"},
+    {12,"Attiva o disattiva il magnete"},
+    {13,"Attiva o disattiva la maschera magnetica. Le opzioni di mascheramento si trovano nel menu Strumenti."},
+    {14,"Preferenze della modalità Scultura"},
+    {15,"Esci dalla modalità scultura"},
+    {16,"Vincoli dell'asse"}
+   ]}
+ ]}.

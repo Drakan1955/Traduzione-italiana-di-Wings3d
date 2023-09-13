@@ -1,0 +1,31 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_thread,
+ [
+  {make_thread,
+   [
+    {1,"Opzioni Filettatura"}
+   ]},
+  {menu,
+   [
+    {2,"Crea una filettatura"}
+   ]},
+  {thread,
+   [
+    {1,"Filettatura"}
+   ]},
+  {thread_dialog,
+   [
+    {1,"Sezioni"},
+    {2,"Raggio superiore"},
+    {3,"Raggio inferiore"},
+    {4,"Lunghezza"},
+    {5,"Altezza creste"},
+    {6,"Numero creste"},
+    {7,"Sinistorsa"},
+    {8,"Destorsa"},
+    {9,"Direzione"},
+    {10,"Elicoidale"},
+    {11,"Non-elicoidale"},
+    {12,"Tipo filettatura"}
+   ]}
+ ]}.

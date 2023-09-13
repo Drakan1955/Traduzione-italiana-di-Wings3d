@@ -1,0 +1,29 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_explode,
+ [
+  {axis_menu,
+   [
+    {1,"Esplode gli oggetti lungo l'asse ~s dal punto medio della selezione"},
+    {2,"Scegli il punto"},
+    {3,"Esplode gli oggetti lungo la radiale dell'asse standard"},
+    {4,"Seleziona radiale e punto"},
+    {5,"Seleziona la radiale ed esplodi dal punto medio della selezione"},
+    {6,"Radiale"},
+    {7,"Esplodi gli oggetti in modo uniforme dal punto medio della selezione"}
+   ]},
+  {explode_menu,
+   [
+    {1,"Spazia gli oggetti lungo un asse standard rispetto a un punto"},
+    {2,"Seleziona l'asse e il punto"},
+    {3,"Seleziona l'asse ed esplodi dal punto medio della selezione"}
+   ]},
+  {menu_heading,
+   [
+    {1,"Esplodi"}
+   ]},
+  {radial_menu,
+   [
+    {1,"Esplode gli oggetti lungo la radiale dell'asse ~s"},
+    {2,"Scegli il punto"}
+   ]}
+ ]}.

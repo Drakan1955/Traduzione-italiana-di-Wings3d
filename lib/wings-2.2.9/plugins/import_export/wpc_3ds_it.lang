@@ -1,0 +1,16 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_3ds,
+ [
+  {do_export,
+   [
+    {1,"Opzioni di esportazione di 3D Studio"}
+   ]},
+  {do_import,
+   [
+    {1,"Opzioni di importazione di 3D Studio"}
+   ]},
+  {props,
+   [
+    {1,"File 3D Studio"}
+   ]}
+ ]}.

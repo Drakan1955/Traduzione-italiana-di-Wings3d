@@ -1,0 +1,18 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_turnedge,
+ [
+  {command_help,
+   [
+    {turn_ccw,"Ruota il bordo in senso antiorario"},
+    {turn_cw,"Ruota il bordo in senso orario"},
+    {turn_optimized,"Ruota il bordo (in senso orario) solo se il nuovo bordo sarebbe più corto"}
+   ]},
+  {command_name,
+   [
+    {turn,"Ruota"}
+   ]},
+  {validate_edges,
+   [
+    {1,"I bordi selezionati non devono essere della stessa faccia."}
+   ]}
+ ]}.

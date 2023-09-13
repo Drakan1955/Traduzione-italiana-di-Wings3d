@@ -1,0 +1,50 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_absolute_move,
+ [
+  {draw,
+   [
+    {1,"Comandi Assoluti"},
+    {2,"Sposta"},
+    {3,"Sposta alla posizione esatta in coordinate assolute"},
+    {4,"Aggancia"},
+    {5,"Sposta la selezione verso una seconda selezione"},
+    {6,"Sposta usando il centro come riferimento"},
+    {7,"Sposta visualizzando l'immissione numerica"},
+    {8,"Sposta usando una seconda selezione come riferimento"},
+    {9,"Sposta usando una seconda selezione e orientamento come riferimento"}
+   ]},
+  {draw_window,
+   [
+    {1,"Opzioni di movimento assolute"},
+    {3,"Sposta oggetto"},
+    {4,"Sposta oggetti"},
+    {8,"Il punto di riferimento è"},
+    {10,"Tra riferimento e obiettivo"}
+   ]},
+  {draw_window1,
+   [
+    {2,"Imposta posizione"},
+    {6,"Allinea"},
+    {7,"Appiattisci"},
+    {9,"Blocca"}
+   ]},
+  {duplicate,
+   [
+    {5,"Duplicati"}
+   ]},
+  {mirror_error,
+   [
+    {1,"Non è possibile spostare i vertici dal piano speculare"}
+   ]},
+  {omove,
+   [
+    {1,"La retta e il piano sono quasi paralleli:\nnon riesco a trovare l'intersezione."}
+   ]},
+  {selection_ask,
+   [
+    {1,"Seleziona il punto di riferimento per l'operazione di snap"},
+    {2,"Seleziona il punto di destinazione per l'operazione di snap"},
+    {3,"Seleziona l'asse di riferimento per l'orientamento"},
+    {4,"Seleziona l'asse perpendicolare al piano (il piano passerà attraverso la base dell'asse)"}
+   ]}
+ ]}.

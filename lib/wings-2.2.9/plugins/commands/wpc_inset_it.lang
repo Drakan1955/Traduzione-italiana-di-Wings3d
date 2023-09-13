@@ -1,0 +1,55 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_inset,
+ [
+  {abs_rel_help,
+   [
+    {1,"Distanza"},
+    {2,"Percentuale"}
+   ]},
+  {extrude_norm_help1,
+   [
+    {1,"Bump: Normale Faccia"},
+    {2,"Bump: Normale Regione"}
+   ]},
+  {lmb_help,
+   [
+    {1,"Inserisce una faccia all'interno di ogni faccia selezionata"}
+   ]},
+  {loop_error_1,
+   [
+    {1,"Inserto/Sfalsa Regione non funziona per oggetti selezionati interamente"}
+   ]},
+  {loop_error_2,
+   [
+    {1,"Sfalsa Regione richiede che le facce vicine\ncondividano almeno un bordo"}
+   ]},
+  {mmb_help,
+   [
+    {1,"Sfalsa Regione - Crea nuovi bordi attorno a ciascuna selezione di gruppi di facce"}
+   ]},
+  {mode_help,
+   [
+    {1,"Scala per vettore più breve per: "}
+   ]},
+  {rmb_help,
+   [
+    {1,"Inserto Regione - Crea nuovi spigoli all'interno di ogni selezione in un gruppo di facce"}
+   ]},
+  {stop_edge_help,
+   [
+    {1,"Fermati ai bordi"},
+    {2,"Continua oltre i bordi"}
+   ]},
+  {string,
+   [
+    {2,"Lungo i bordi"},
+    {3,"Media"},
+    {4,"Oggetto"},
+    {5,"Faccia"},
+    {6,"Media lungo i bordi"}
+   ]},
+  {title,
+   [
+    {1,"Inserto"}
+   ]}
+ ]}.

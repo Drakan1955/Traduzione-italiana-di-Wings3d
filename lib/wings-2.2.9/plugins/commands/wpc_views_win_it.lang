@@ -1,0 +1,26 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_views_win,
+ [
+  {camera_menu,
+   [
+    {1,"Gestione Viste Salvate"},
+    {2,"Mostra tutte le Viste Salvate"}
+   ]},
+  {title,
+   [
+    {1,"Viste Salvate"}
+   ]},
+  {views_menu,
+   [
+    {1,"Salva Nuova..."},
+    {2,"Crea una nuova Vista Salvata"},
+    {3,"Sostituisci "},
+    {4,"Sostituisce \""},
+    {5,"Rinomina..."},
+    {6,"Rinomina \""},
+    {7,"Elimina"},
+    {8,"Elimina \""},
+    {9,"Cancella Tutto..."},
+    {10,"Elimina tutte le Viste Salvate"}
+   ]}
+ ]}.

@@ -1,0 +1,28 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_svg_path,
+ [
+  {command,
+   [
+    {1,"Opzioni di importazione del tracciato .svg"},
+    {2,"Numero di bisezioni di spigolo"},
+    {3,"(Per ottenere i migliori risultati durante l'importazione da Inkscape,\nconvertire tutti gli oggetti in percorsi e salvarli come semplice .svg)"},
+    {4,"File .svg"}
+   ]},
+  {make_svg,
+   [
+    {1,"Importazione del tracciato Inkscape .svg non riuscita"},
+    {2,"Errore interno di importazione del tracciato Inkscape .svg"}
+   ]},
+  {parse_chars,
+   [
+    {1,"Nessun tracciato chiuso."}
+   ]},
+  {parse_path,
+   [
+    {3,"Impossibile elaborare questo file."}
+   ]},
+  {try_import_svg,
+   [
+    {1,"Non è un file .svg"}
+   ]}
+ ]}.

@@ -1,0 +1,9 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_isometric_view,
+ [
+  {isometric_menu,
+   [
+    {1,"Vista Isometrica"},
+    {2,"Ripristina la vista e la imposta sulla visualizzazione isometrica"}
+   ]}
+ ]}.

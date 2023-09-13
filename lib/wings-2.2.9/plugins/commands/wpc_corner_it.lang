@@ -1,0 +1,17 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_corner,
+ [
+  {corner,
+   [
+    {1,"Si possono aggiungere angoli solo agli spigoli che hanno una faccia a 3 lati su un'estremità e una faccia a 5 lati sull'altra."}
+   ]},
+  {corner_error,
+   [
+    {1,"Siamo spiacenti, questa selezione va oltre lo scopo di questo strumento."}
+   ]},
+  {corner_menu,
+   [
+    {1,"Angolo"},
+    {2,"Crea angoli da anelli di spigoli che connettono facce a 3 e 5 lati"}
+   ]}
+ ]}.

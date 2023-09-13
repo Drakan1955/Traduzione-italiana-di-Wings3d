@@ -1,0 +1,17 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_stl,
+ [
+  {dialog_export,
+   [
+    {2,"Scala di esportazione"},
+    {3,"Passaggi di suddivisione"},
+    {4,"NOTA: Testando gli strumenti slicer di seguito\nè stato notato che traducono 1 unità STL in 1 mm.\nQuindi, possiamo dire che 1 WU = 1 STL (1 mm)."},
+    {7,"Scala di conversione"},
+    {8,"Scala dell'oggetto"},
+    {9,"Informazioni sul software Slicer"}
+   ]},
+  {do_export,
+   [
+    {1,"Opzioni di esportazione STL"}
+   ]}
+ ]}.

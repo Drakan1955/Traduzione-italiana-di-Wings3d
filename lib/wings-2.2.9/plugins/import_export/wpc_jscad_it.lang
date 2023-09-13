@@ -1,0 +1,33 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_jscad,
+ [
+  {dialog,
+   [
+    {1,"Un gruppo per materiale"},
+    {2,"Esporta gruppo di facce"},
+    {3,"Esporta gli ID gruppi di facce in base al materiale"},
+    {4,"Costruisci l'istruzione main()"},
+    {5,"Aggiungi una funzione main() per costruire la scena"},
+    {6,"Scambia gli assi Y e Z"},
+    {7,"Passaggi di suddivisione"},
+    {8,"Risultati della funzione di creazione"},
+    {9,"Oggetto CSG"},
+    {10,"Proprietà"}
+   ]},
+  {do_export,
+   [
+    {1,"Opzioni di esportazione OpenJSCAD"}
+   ]},
+  {export,
+   [
+    {1,"Errore OpenJSCAD: ~P in"}
+   ]},
+  {export_scale_s,
+   [
+    {1,"Scala di esportazione"}
+   ]},
+  {props,
+   [
+    {1,"File OpenJSCAD"}
+   ]}
+ ]}.

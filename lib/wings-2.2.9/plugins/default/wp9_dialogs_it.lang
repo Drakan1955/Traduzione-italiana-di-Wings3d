@@ -1,0 +1,19 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wp9_dialogs,
+ [
+  {image_formats,
+   [
+    {1,"File BMP Bitmap"},
+    {2,"Tiff Bitmap"},
+    {3,"File PNG"},
+    {4,"File Targa"},
+    {5,"File JPEG"},
+    {6,"Compuserve GIF"},
+    {7,"File Direct Draw"}
+   ]},
+  {ui,
+   [
+    {1,"Apri"},
+    {2,"Salva"}
+   ]}
+ ]}.

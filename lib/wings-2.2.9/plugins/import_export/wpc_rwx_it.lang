@@ -1,0 +1,22 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_rwx,
+ [
+  {dialog,
+   [
+    {1,"Campionamento sfaccettato"},
+    {2,"Ottimizzare la dimensione del file?"},
+    {3,"Ambiente"},
+    {4,"Diffusione"},
+    {5,"Speculare"},
+    {6,"Scala di esportazione"},
+    {7,"Passaggi di suddivisione"}
+   ]},
+  {do_export,
+   [
+    {1,"Opzioni di esportazione Renderware"}
+   ]},
+  {props,
+   [
+    {1,"File Criterion Renderware"}
+   ]}
+ ]}.

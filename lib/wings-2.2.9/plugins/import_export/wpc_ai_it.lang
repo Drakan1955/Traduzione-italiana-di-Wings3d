@@ -1,0 +1,19 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_ai,
+ [
+  {command,
+   [
+    {1,"Opzioni di importazione AI"},
+    {2,"Numero di bisezioni spigolo"},
+    {3,"Adobe Illustrator File"}
+   ]},
+  {make_ai,
+   [
+    {1,"Importazione AI non riuscita"},
+    {2,"Importazione AI errore interno"}
+   ]},
+  {tryimport,
+   [
+    {1,"Non è un file Adobe Illustrator (versione 8 o precedente)"}
+   ]}
+ ]}.

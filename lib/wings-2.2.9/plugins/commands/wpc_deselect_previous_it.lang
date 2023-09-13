@@ -1,0 +1,9 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_deselect_previous,
+ [
+  {deselect_previous,
+   [
+    {1,"Deseleziona Precedente"},
+    {2,"Sottrae lo stato di selezione precedente dalla selezione corrente"}
+   ]}
+ ]}.

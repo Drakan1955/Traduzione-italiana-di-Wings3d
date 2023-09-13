@@ -1,0 +1,15 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_flow_connect,
+ [
+  {flow_connect,
+   [
+    {1,"Connetti Flusso"},
+    {2,"Collega i bordi in relazione alla geometria circostante"},
+    {3,"Connette e sposta i bordi in posizione"}
+   ]},
+  {help,
+   [
+    {1,"Sposta nella direzione delle normali della faccia"},
+    {2,"Sposta nella direzione del flusso geometrico"}
+   ]}
+ ]}.

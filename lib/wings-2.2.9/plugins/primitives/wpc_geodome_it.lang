@@ -1,0 +1,28 @@
+%% -*- mode:erlang; erlang-indent-level: 2 -*-
+{wpc_geodome,
+ [
+  {dialog,
+   [
+    {1,"Risoluzione"},
+    {2,"Frequenza (Suddivisione dei bordi)"},
+    {3,"Profondità (Suddivisione ricorsiva)"},
+    {4,"Algoritmo/Metodo di suddivisione"},
+    {5,"Icosaedro"},
+    {6,"Ottaedro"},
+    {7,"Tetraedro"},
+    {8,"Tipo di base"},
+    {9,"Sì"},
+    {10,"No"},
+    {11,"Sferica"},
+    {12,"Semisferica"}
+   ]},
+  {geodome_menu,
+   [
+    {1,"GeoDome"}
+   ]},
+  {make_geodome,
+   [
+    {1,"Opzioni Cupola Geodetica"},
+    {2,":GeoDome"}
+   ]}
+ ]}.
